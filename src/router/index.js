@@ -23,6 +23,26 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: () => import('@/views/login/Index')
+  },
+  {
+    path: '/renderList',
+    name: 'RenderList',
+    component: () => import('@/views/demo/TestRenderList')
+  },
+  {
+    path: '/advancedTable',
+    name: 'AdvancedTable',
+    component: () => import('@/views/demo/TestAdvancedTable')
+  },
+  {
+    path: '/searchForm',
+    name: 'SearchForm',
+    component: () => import('@/views/demo/TestSearchForm')
+  },
+  {
+    path: '/listPage',
+    name: 'ListPage',
+    component: () => import('@/views/demo/TestListPage')
   }
 ]
 
